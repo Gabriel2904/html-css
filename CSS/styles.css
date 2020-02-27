@@ -1,0 +1,87 @@
+body {
+    background-color: #eeeeee;
+    font-family: 'Montserrat', sans-serif ;
+}
+span{
+    border: 1px #4b4b4b solid !important;
+    background-color: black !important;
+}
+
+.navbar {
+    padding: 0 12%;
+    margin-top: 12px;
+}
+.nav-link {
+    color: #4b4b4b !important;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.active {
+    text-decoration: underline;
+}
+.nav-item {
+    width: 250px;
+    text-align: center;
+}
+#contacto h1, #contacto p {
+    font-weight: 700;
+}
+#contacto h1 {
+    font-size: 55px;
+    margin-top: 60px;
+}
+#contacto p {
+    font-size: 35px;
+    margin-top: 18px;
+    margin-bottom: 100px;
+    margin-right: 315px;
+}
+#contacto input[type=text], #contacto input[type=email], #contacto textarea {
+    background-color: #eeeeee;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width: 700px){
+    #contacto h1 {
+        font-size: 45px;
+    }
+    #contacto p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-right: 40px;
+    }
+}
+footer {
+    background-color: white
+}
+p .Derechos {
+    color: black;
+}
+i{
+    color: black;
+    font-size: 35px;
+    border: 1px solid;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+}
+i:hover{
+    color: #4b4b4b;
+}
