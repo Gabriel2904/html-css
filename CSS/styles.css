@@ -11,6 +11,13 @@ span{
     padding: 0 12%;
     margin-top: 12px;
 }
+.navbar-toggler-icon {
+    border: 0.1px solid rgba(255, 255, 255, 0.5) !important;
+    padding: 7px;
+    width: 45px;
+    height: 37px;
+    border-radius: 3px;
+}
 .nav-link {
     color: #4b4b4b !important;
     text-transform: uppercase;
@@ -84,4 +91,31 @@ i{
 }
 i:hover{
     color: #4b4b4b;
+}
+.img-fluid {
+    height: 260px;
+}
+#home {
+    background-image: url(../Images/Fondos-01.png) ;
+    background-repeat: repeat;
+    background-size: 100%;
+    height: 81vh;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    font-size: 55px;
+    padding-bottom: 20px;
+    color:rgb(45, 45, 45);
+    font-weight: 800;
+}
+.inicio {
+    font-size: 30px;
+    line-height: 40px;
+    color:rgb(45, 45, 45);
 }
